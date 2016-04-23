@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <title>Skills-HTML-CSS</title>
+    </head>
+    <body>
+		<h1>Time to Apply!</h1>
+
+		<p>Thanks for your interest in Ubermelon! Please fill out the following application so that we can review your information.</p>
+
+		<form action="/application" method=POST>
+			First Name <input type="text" name="first-name"><br> <!-- Add ACCESSIBILITY STUFF -->
+			Last Name <input type="text" name="last-name" id="lastname"><br> <!-- Add ACCESSIBILITY STUFF -->
+			Salary Requirement <input type="number" name="salary-req"><br><br> <!-- Add ACCESSIBILITY STUFF -->
+			Job Applying for:<br>
+			<input type="radio" name="job" value="software-engineer"> Software Engineer<br>
+  			<input type="radio" name="job" value="qa-engineer"> QA Engineer<br>
+  			<input type="radio" name="job" value="product-manager"> Product Manager
+  			<br><br>
+  			<input type="submit">
+  		</form>
+
+    </body>
+</html>
